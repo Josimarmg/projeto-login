@@ -2,8 +2,8 @@
 
 /*
     Paleta de cores
-    Verde:  #49a09d
-    Lilás:  #5f2c82
+    Cor 1:  #141413
+    Cor 2:  #4C3F21
 */
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #5F2C82;
+    background-color: #141413;
     height: 100vh;
     width: 100vw;
 }
@@ -37,11 +37,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5F2C82 url(../imagens/ungaro.jpg) no-repeat;
+    background: #4C3F21 url(../imagens/ungaro.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
